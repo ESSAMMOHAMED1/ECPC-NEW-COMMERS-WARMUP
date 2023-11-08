@@ -1,10 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-
-
-
 // Access the Elements of a 2D array
 void TowDarrayAccessElement()
 {
