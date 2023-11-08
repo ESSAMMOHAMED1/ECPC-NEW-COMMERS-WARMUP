@@ -1,5 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+
+
+
+
 // Access the Elements of a 2D array
 void TowDarrayAccessElement()
 {
@@ -11,6 +16,9 @@ void TowDarrayAccessElement()
 
     cout << Names[0][0];
 }
+
+
+
 
 /// Loop Through a 2D array
 
@@ -32,4 +40,25 @@ void TowDarrayLoopIn()
             }
         }
     }
+}
+
+
+
+
+
+
+//===============================================================================
+
+
+
+
+
+
+void problem(){
+    int Grid[4][4] = {
+  { 0, 1, 1, 0 },
+  { 0, 0, 0, 0 },
+  { 0, 0, 1, 0 },
+  { 0, 0, 1, 0 }
+};
 }

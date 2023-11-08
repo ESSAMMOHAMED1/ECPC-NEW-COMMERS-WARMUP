@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+
 void selectionSort(int arr[], int n)
 {
     int i, j, min_idx;
@@ -18,6 +20,12 @@ void selectionSort(int arr[], int n)
             swap(arr[min_idx], arr[i]);
     }
 }
+
+
+
+
+
+
 /// O(n^2)
 ///================================================================================
 
@@ -43,6 +51,16 @@ void bubbleSort(int arr[], int n)
             break;
     }
 }
+
+
+
+
+
+
+
+
+
+
 /// O(n^2)
 ///====================================================================================
 void insertionSort(int arr[], int n)
@@ -62,36 +80,21 @@ void insertionSort(int arr[], int n)
         arr[j + 1] = key;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 /// O(n^2)
 ///=========================================================================================
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

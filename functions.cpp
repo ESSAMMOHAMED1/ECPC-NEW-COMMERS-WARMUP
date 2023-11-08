@@ -1,13 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
-//for loop
+void function(){
+
+}
 
 
-
-// while loop
-
-
-
-
-// do while loop
 
