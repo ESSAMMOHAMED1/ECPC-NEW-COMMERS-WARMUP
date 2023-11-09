@@ -1,8 +1,21 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// notations
+// 1- O notation
+
+// 2- theta notation
+
+// 3- omega  notation
+
+//==========================================================================================
+
+
+
 
 // OP vs input 
+
+
 
 
 //========================================================================================
@@ -17,15 +30,10 @@ using namespace std;
 
 //=======================================================================================
 
-//*Rules
-// 1 - running time is the some of running times of all consecutive blocks
-// 2 - nested loops are multiplied
-// 3 -  
-
-
  //Rules:
 
-// 1- Running time is the sum of running times of all consecutive blocks.
+// 1- Running time is the sum of running times of all consecutive(stak order) blocks.
+
 // 2- Nested loops are multiplied.
 
 // In general -> Nested repetitive Blocks are multiplied.
@@ -36,24 +44,49 @@ using namespace std;
 
 // 5- Drop all lower order terms.
 
+int sum(int a,int b){
+    int sum = a+b;
+    return a+b;
+}
+
+
+//====================================================================================
 
 
 
 
+double calcAvg(int a, int b){
+   double avg = (a+b)/2.0;
+
+  return avg;
+}
 
 
 
 
+//=========================================================================================
+
+
+double sumHarmonicSeries (int n) {
+double sum = 0;
+for(int i = 1; i <= n; ++i) {
+sum += (1.0/i);
+}
+return sum;
+}
 
 
 
 
-
-
-
-
-void selectionSort(int arr[], int n)
-{
+int stepper(int n, int s){ 
+ int ret = 0;
+ for(int i = 1; i <= n; i += s) {
+ ret += i;
+ }
+return ret;
+}
+//=======================================================================================
+void selectionSort(int arr[], int n){
     int i, j, min_idx;
     for (i = 0; i < n - 1; i++)
     {
