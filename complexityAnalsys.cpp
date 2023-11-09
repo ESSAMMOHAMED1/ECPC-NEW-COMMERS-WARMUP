@@ -4,9 +4,10 @@ using namespace std;
 // notations
 // 1- O notation
 
+// 3- omega  notation
+
 // 2- theta notation
 
-// 3- omega  notation
 
 //==========================================================================================
 
