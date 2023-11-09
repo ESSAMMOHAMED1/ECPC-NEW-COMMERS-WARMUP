@@ -2,15 +2,39 @@
 using namespace std;
 
 
+// OP vs input 
 
 
+//========================================================================================
+
+//Cases :
+
+//Best case 
+
+//averge case
+
+//worst case 
+
+//=======================================================================================
+
+//*Rules
+// 1 - running time is the some of running times of all consecutive blocks
+// 2 - nested loops are multiplied
+// 3 -  
 
 
+ //Rules:
 
+// 1- Running time is the sum of running times of all consecutive blocks.
+// 2- Nested loops are multiplied.
 
+// In general -> Nested repetitive Blocks are multiplied.
 
+// 3- In Conditional statements pick the "Worst case" one.
 
+// 4- Drop Constants (addition, subtraction, multiplication or division).
 
+// 5- Drop all lower order terms.
 
 
 
